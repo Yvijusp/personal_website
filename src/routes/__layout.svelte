@@ -1,8 +1,8 @@
 <script>
 	import '../app.css';
-	import Header from '../components/header.svelte';
+	// import Header from '../components/header.svelte';
 
-	let dark = true;
+	let dark = false;
 </script>
 
 <svelte:head>
@@ -11,7 +11,7 @@
 
 <div class:dark>
 	<div class="bg-light dark:bg-dark">
-		<Header bind:dark />
+		<!-- <Header bind:dark /> -->
 		<slot />
 	</div>
 </div>
