@@ -10,22 +10,6 @@
 	</p>
 </main>
 
-<svelte:head>
-	<style>
-		*,
-		*::after,
-		*::before {
-			box-sizing: border-box;
-			margin: 0;
-			padding: 0;
-		}
-
-		body {
-			background-color: #fff8f3;
-		}
-	</style>
-</svelte:head>
-
 <style lang="scss">
 	.wrapper {
 		width: 100%;
