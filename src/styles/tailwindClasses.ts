@@ -7,3 +7,13 @@ const button =
 export const primaryButton = `${button} border-primary  hover:bg-primary`;
 
 export const secondaryButton = `${button} border-secondary hover:bg-secondary`;
+
+export const portfolioSection = 'flex justify-center mt-24 mb-48';
+
+export const linkedinClass = 'bg-[#0E76A8] text-white';
+
+export const githubClass = 'bg-black text-white';
+
+export const defaultIcon = 'bg-primary text-white';
+
+export const skillClass = 'text-4xl rounded-full p-1.5 shadow-lg';
