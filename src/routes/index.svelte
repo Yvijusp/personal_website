@@ -13,7 +13,7 @@
 			<br /> I'm full stack developer web developer.
 		</h1>
 	</div>
-	<div class="flex gap-4">
+	<div class="flex gap-4 flex-col md:flex-row">
 		<Button onClick={() => goto('/portfolio')} label="View my portfolio" />
 		<Button onClick={() => goto('/projects')} type="secondary" label="View my projects" />
 	</div>
