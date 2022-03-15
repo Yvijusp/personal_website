@@ -10,7 +10,7 @@
 			class="2xl:text-7xl lg:text-6xl text-4xl relative z-10 pointer-events-none dark:text-white select-none"
 		>
 			Hello. I'm <span class="text-primary font-bold"> Yvijus Padolskis.</span>
-			<br /> I'm full stack developer web developer.
+			<br /> I'm full stack web developer.
 		</h1>
 	</div>
 	<div class="flex gap-4">
