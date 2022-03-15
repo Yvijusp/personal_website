@@ -19,7 +19,7 @@
 	];
 </script>
 
-<header>
+<header class="px-8">
 	<nav class="flex justify-end items-center">
 		<ul class="flex">
 			{#each headerContent as item}
