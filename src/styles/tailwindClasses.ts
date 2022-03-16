@@ -8,7 +8,7 @@ export const primaryButton = `${button} border-primary  hover:bg-primary`;
 
 export const secondaryButton = `${button} border-secondary hover:bg-secondary`;
 
-export const portfolioSection = 'flex justify-center mt-24 mb-48 last:mb-0';
+export const portfolioSection = 'flex justify-center  last:mb-0 p-4 pt-24 pb-24';
 
 export const linkedinClass = 'bg-[#0E76A8] text-white';
 

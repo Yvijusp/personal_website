@@ -6,7 +6,7 @@
 </script>
 
 <div
-	class="dark:text-white rounded hover:scale-105 hover:transition-transform py-5 px-10 shadow-lg dark:bg-gray-900/20 lg:w-[28rem] min-w-[18rem]"
+	class="bg-white dark:text-white rounded hover:scale-105 hover:transition-transform py-5 px-10 shadow-lg dark:bg-gray-900/20 lg:w-[28rem] min-w-[18rem]"
 >
 	<h3 class="text-primary font-bold text-2xl mb-2">{schoolName}</h3>
 	<h4 class="font-bold text-lg mb-3">{subHeader}</h4>

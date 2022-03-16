@@ -12,7 +12,7 @@
 	} from '../styles/tailwindClasses';
 </script>
 
-<section class={portfolioSection}>
+<section class={`${portfolioSection} bg-gray-300/50 dark:bg-gray-900/20`}>
 	<div>
 		<h2 class="text-5xl text-center mb-6 dark:text-white">About me</h2>
 		<div>
@@ -52,7 +52,7 @@
 	</div>
 </section>
 
-<section class={portfolioSection}>
+<section class={`${portfolioSection} bg-gray-300/50 dark:bg-gray-900/20`}>
 	<div>
 		<h2 class="text-5xl text-center mb-10 dark:text-white">Education</h2>
 		<div class="flex gap-10 flex-col lg:flex-row lg:gap-6">

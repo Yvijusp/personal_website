@@ -7,7 +7,7 @@
 </script>
 
 <div
-	class="dark:text-white w-96 p-4 shadow-lg dark:bg-gray-900/20 hover:shadow-hlg hover:transition-shadow duration-200"
+	class="dark:text-white w-96 p-4 shadow-lg dark:bg-gray-900/20 hover:shadow-hlg hover:transition-shadow duration-200 bg-white"
 >
 	<h2 class="text-center font-bold text-2xl mb-4">{jobName}</h2>
 	{#if company}
