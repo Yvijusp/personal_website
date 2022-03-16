@@ -5,7 +5,9 @@
 </script>
 
 {#if home !== '/'}
-	<footer class="mt-20 dark:bg-gray-900/20 p-5 flex flex-col items-center">
+	<footer
+		class="mt-20 dark:bg-gray-900/20 pt-4 pb-2 px-5 flex flex-col items-center bg-gray-300/50"
+	>
 		<div class="flex gap-4 mb-4">
 			{#each icons as icon}
 				<a
