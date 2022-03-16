@@ -1,4 +1,5 @@
 <script lang="ts">
+	import Button from '../components/button.svelte';
 	import EducationCard from '../components/educationCard.svelte';
 	import ExperienceCard from '../components/experienceCard.svelte';
 	import { education, experience, icons, skills } from '../portfolio';
