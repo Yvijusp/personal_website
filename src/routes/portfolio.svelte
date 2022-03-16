@@ -1,6 +1,7 @@
 <script lang="ts">
 	import EducationCard from '../components/educationCard.svelte';
-	import { education, icons, skills } from '../portfolio';
+	import ExperienceCard from '../components/experienceCard.svelte';
+	import { education, experience, icons, skills } from '../portfolio';
 	import {
 		defaultIcon,
 		githubClass,
@@ -56,6 +57,17 @@
 		<div class="flex gap-10 flex-col lg:flex-row lg:gap-6">
 			{#each education as { schoolName, subHeader, duration, desc }}
 				<EducationCard {schoolName} {subHeader} {duration} {desc} />
+			{/each}
+		</div>
+	</div>
+</section>
+
+<section class={portfolioSection}>
+	<div>
+		<h2 class="text-5xl text-center mb-10 dark:text-white">Experience</h2>
+		<div class="flex gap-10 flex-col lg:flex-row lg:gap-6">
+			{#each experience as { jobName, duration, company, description, descBullets }}
+				<ExperienceCard {jobName} {duration} {company} {description} {descBullets} />
 			{/each}
 		</div>
 	</div>

@@ -121,3 +121,21 @@ export const education = [
 		desc: 'Full stack JavaScript courses'
 	}
 ];
+
+export const experience = [
+	{
+		jobName: 'Freelance Web Developer',
+		company: '',
+		duration: 'June 2016 - 2017',
+		description: 'Built simple websites using Wordpress, HTML and CSS',
+		descBullets: ['Basic website development for experience']
+	},
+	{
+		jobName: 'Junior Software Developer',
+		company: 'Devbridge',
+		duration: 'January 2022 - Current',
+		description:
+			'Working as Junior full stack developer. With React, MaterialUI for frontend. Java/Spring for backend. Jest and Cypress for testing',
+		descBullets: []
+	}
+];
