@@ -139,3 +139,24 @@ export const experience = [
 		descBullets: []
 	}
 ];
+
+export const projects = [
+	{
+		name: 'AutoPlus simulation',
+		desc: "Very simple website built on my own backend, using MongoDB as database. Simulates user registration and let's users post cars for sale.",
+		github: 'https://github.com/Yvijusp/autoplus-react',
+		link: 'https://yvijusp.github.io/autoplus-react/'
+	},
+	{
+		name: 'UI template',
+		desc: 'Recreated a template page from a free community figma design. Tried to keep everything pixel perfect.',
+		github: 'https://github.com/Yvijusp/UI_simulation',
+		link: 'https://template-finsweet.netlify.app/'
+	},
+	{
+		name: 'Random choice generator',
+		desc: 'Random choice generator using React webpack setup. Used libraries Chakra UI, styled-components.',
+		github: 'https://github.com/Yvijusp/random-choice-generator',
+		link: 'https://random-choice-gen.netlify.app/'
+	}
+];
