@@ -106,3 +106,18 @@ export const skills = [
 		class: ''
 	}
 ];
+
+export const education = [
+	{
+		schoolName: 'University of Applied Sciences',
+		subHeader: 'Professional Bachelor of Computing',
+		duration: 'September 2017 - January 2021',
+		desc: 'Took courses about Frontend web development, Java, C#, Operating Systems, Servers, Networking, Databases .'
+	},
+	{
+		schoolName: 'CodeAcademy.lt',
+		subHeader: 'JavaScript ES6 Courses',
+		duration: 'April 2021 - October 2021',
+		desc: 'Full stack JavaScript courses'
+	}
+];

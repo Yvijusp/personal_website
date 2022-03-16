@@ -12,8 +12,8 @@
 </svelte:head>
 
 <div class:dark>
-	<div class="bg-light dark:bg-dark h-screen">
+	<div class="bg-light dark:bg-dark">
 		<Header bind:dark home={$page.url.pathname} />
-		<main class="px-8"><slot /></main>
+		<main class="px-8 "><slot /></main>
 	</div>
 </div>
