@@ -4,6 +4,12 @@ module.exports = {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 	darkMode: 'class',
 	theme: {
+		extend: {
+			boxShadow: {
+				lg: '0 1px 3px 1px rgba(0,0,0,0.3)',
+				hlg: '0 2px 6px 2px rgba(0,0,0,0.4)'
+			}
+		},
 		colors: {
 			transparent: 'transparent',
 			current: 'currentColor',
@@ -14,10 +20,14 @@ module.exports = {
 			purple: colors.violet,
 			yellow: colors.amber,
 			pink: colors.fuchsia,
+			sky: colors.sky,
 			dark: '#313552',
 			secondary: '#B8405E',
 			primary: '#2EB086',
-			light: '#EEE6CE'
+			light: '#ffffff'
+		},
+		fontFamily: {
+			sans: ['Space Grotesk', 'sans-serif']
 		}
 	},
 	plugins: []

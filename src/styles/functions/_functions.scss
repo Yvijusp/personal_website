@@ -1,7 +1,0 @@
-$_default-font-size: 16px;
-
-@function get-rem($value) {
-	$rem-size: calc($value / $_default-font-size);
-
-	@return #{$rem-size}rem;
-}

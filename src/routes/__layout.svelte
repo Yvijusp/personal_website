@@ -1,8 +1,11 @@
 <script>
 	import '../app.css';
-	// import Header from '../components/header.svelte';
+	import Header from '../components/header.svelte';
+	import { page } from '$app/stores';
+	import darkMode from '../stores/darkMode';
+	import Footer from '../components/footer.svelte';
 
-	let dark = false;
+	$: dark = $darkMode !== 'light';
 </script>
 
 <svelte:head>
@@ -11,7 +14,8 @@
 
 <div class:dark>
 	<div class="bg-light dark:bg-dark">
-		<!-- <Header bind:dark /> -->
-		<slot />
+		<Header bind:dark home={$page.url.pathname} />
+		<main><slot /></main>
+		<Footer home={$page.url.pathname} />
 	</div>
 </div>

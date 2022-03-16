@@ -1,45 +1,20 @@
-<main class="wrapper">
-	<h1 class="title">Work in progress</h1>
-	<h2 class="subtitle">
-		<a href="https://portfolio.yvijus.xyz/" target="_blank">Current portfolio website</a>
-	</h2>
-	<p class="caption">
-		Currently building personal website using <a href="https://kit.svelte.dev/" target="_blank"
-			>SvelteKit</a
+<script>
+	import Button from '../components/button.svelte';
+	import { Circle } from '../styles/tailwindClasses';
+	import { goto } from '$app/navigation';
+</script>
+
+<section class="flex flex-col gap-10 justify-center items-center h-screen">
+	<div class={Circle}>
+		<h1
+			class="2xl:text-7xl lg:text-6xl text-4xl relative z-10 pointer-events-none dark:text-white select-none"
 		>
-	</p>
-</main>
-
-<style lang="scss">
-	.wrapper {
-		width: 100%;
-		height: 100vh;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-	}
-
-	.title {
-		font-size: get-rem(120px);
-		margin-bottom: 25px;
-		color: #000b49;
-	}
-
-	.subtitle {
-		font-size: get-rem(60px);
-		margin-bottom: 25px;
-		a {
-			color: #9b0000;
-		}
-	}
-
-	.caption {
-		font-size: get-rem(24px);
-		font-weight: 700;
-
-		a {
-			color: #9b0000;
-		}
-	}
-</style>
+			Hello. I'm <span class="text-primary font-bold"> Yvijus Padolskis.</span>
+			<br /> I'm full stack web developer.
+		</h1>
+	</div>
+	<div class="flex gap-4 flex-col md:flex-row">
+		<Button onClick={() => goto('/portfolio')} label="View my portfolio" />
+		<Button onClick={() => goto('/projects')} type="secondary" label="View my projects" />
+	</div>
+</section>
